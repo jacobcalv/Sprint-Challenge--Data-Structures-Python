@@ -14,6 +14,7 @@ class RingBuffer:
         # because modulo is being used to determine the remainder which also determines the oldest value.
         
         self.number_of_vals += 1
+        # each time the number of values increases regardless
 
     def get(self):
         return self.list

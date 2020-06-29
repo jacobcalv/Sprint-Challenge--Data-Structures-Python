@@ -1,3 +1,5 @@
+# ******* this is Θ(n^2) *****
+
 from bst import BSTNode
 
 import time
